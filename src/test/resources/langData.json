@@ -1,0 +1,37 @@
+{
+  "data": [
+    {
+      "param": {
+        "term": "alan+walker",
+        "country": "JP",
+        "lang": "en_US",
+        "limit": "3"
+      },
+      "statusCode": "200"
+    },
+    {
+      "param": {
+        "term": "alan walker",
+        "country": "AU",
+        "lang": "ju"
+      },
+      "statusCode": "400"
+    },
+    {
+      "param": {
+        "term": "Dr.Dre",
+        "limit": "5",
+        "lang": "XYZ"
+      },
+      "statusCode": "400"
+    },
+    {
+      "param": {
+        "term": "alan+walker",
+        "country": "US",
+        "limit": "3"
+      },
+      "statusCode": "200"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Apple iTunes Regression Tests Suite" verbose="1">
+
+    <test name="Regression Suite">
+        <groups>
+            <run>
+                <include name="regression"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="TermQueryApiTest"/>
+            <class name="LangQueryApiTest"/>
+            <class name="CountryQueryApiTest"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,60 @@
+{
+  "data": [
+    {
+      "param": {
+        "term": "alan+walker",
+        "country": "US",
+        "limit": "3"
+      },
+      "statusCode": "200"
+    },
+    {
+      "param": {
+        "term": "taylor+swift",
+        "country": "US"
+      },
+      "statusCode": "200"
+    },
+    {
+      "param": {
+        "term": "Dr.Dre",
+        "country": "US",
+        "limit": "5"
+      },
+      "statusCode": "200"
+    },
+    {
+      "param": {
+        "term": "yelp",
+        "country": "US",
+        "entity": "software",
+        "limit": "7"
+      },
+      "statusCode": "200"
+    },
+    {
+      "param": {
+        "term": "yelp",
+        "country": "CA",
+        "entity": "software",
+        "limit": "2"
+      },
+      "statusCode": "200"
+    },
+    {
+      "param": {
+        "term": "null",
+        "country": "FR",
+        "entity": "NULL"
+      },
+      "statusCode": "400"
+    },
+    {
+      "param": {
+        "country": "US",
+        "limit": "3"
+      },
+      "statusCode": "200"
+    }
+  ]
+}

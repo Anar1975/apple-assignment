@@ -1,0 +1,46 @@
+{
+  "data": [
+    {
+      "param": {
+        "term": "Michael Jackson",
+        "country": "US",
+        "limit": "3",
+        "lang": "en_US"
+      },
+      "statusCode": "200"
+    },
+    {
+      "param": {
+        "term": "Paul McCartney",
+        "country": "GB",
+        "lang": "en_US"
+      },
+      "statusCode": "200"
+    },
+    {
+      "param": {
+        "term": "Paul McCartney",
+        "lang": "en_US"
+      },
+      "statusCode": "400"
+    },
+    {
+      "param": {
+        "term": "Paul McCartney",
+        "country": "UK",
+        "limit": "4",
+        "lang": "en_UK"
+      },
+      "statusCode": "400"
+    },
+    {
+      "param": {
+        "term": "Paul McCartney",
+        "country": "525",
+        "limit": "4",
+        "lang": "en_UK"
+      },
+      "statusCode": "400"
+    }
+  ]
+}

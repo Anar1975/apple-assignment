@@ -1,0 +1,20 @@
+# Project
+target
+reports
+allure-report
+allure-results
+*.class
+.classpath
+.project
+.settings/
+
+# Intellij IDEA
+.idea/
+*.iml
+*.iws
+
+# macOs
+.DS_Store
+._.DS_Store
+
+
